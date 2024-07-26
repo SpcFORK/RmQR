@@ -1,0 +1,28 @@
+{
+  "name": "rmqr",
+  "version": "1.0.0",
+  "description": "A RmQR implementation for JS.",
+  "main": "public/dist/rmqr.js",
+  "scripts": {
+    "test": "tsup src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "@spcfork/rmqr"
+  },
+  "keywords": [
+    "constants",
+    "test"
+  ],
+  "author": "SpcFORK",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.6",
+    "express": "^4.19.2",
+    "tsup": "^8.1.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "cowcst": "^1.0.16"
+  }
+}
